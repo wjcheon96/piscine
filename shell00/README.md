@@ -1,7 +1,7 @@
 # Shell 00
 
 
-shellsript를 통해 cs 구조에 대한 학습을 한다.
+shellscript를 통해 cs 구조에 대한 학습을 한다.
 
 ### ex00
 
@@ -176,7 +176,9 @@ git ls-files 를 통해 git 저장소에 있는 파일의 리스트를 출력하
 원본 파일인 a 와 patch 파일인 b 파일을 통해 생성된 sw.diff라는 파일이 주어졌을때,
 패치파일을 만드는 문제.
 
-```patch -p b < s.diff```
+```patch a diff.sw > b```
+
+```patch a diff.sw -o b```
 
 ### ex08
 
