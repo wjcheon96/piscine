@@ -1,6 +1,5 @@
 # Shell 00
 
----
 
 shellsript를 통해 cs 구조에 대한 학습을 한다.
 
