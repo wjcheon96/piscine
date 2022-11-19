@@ -1,0 +1,26 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ATTR	._init.c	/^/;"	v
+ATTR	._main.c	/^/;"	v
+ATTR	._map.c	/^/;"	v
+ATTR	._tool.c	/^/;"	v
+bsq_solve	main.c	/^void	bsq_solve(int fd, t_data *data)$/;"	f
+free_all	main.c	/^void	free_all(t_data *data, char *str)$/;"	f
+ft_atoi_l	tool.c	/^int	ft_atoi_l(char *str, int size)$/;"	f
+ft_get_line	map.c	/^int	ft_get_line(char **str, char *buffer, t_data *data)$/;"	f
+ft_get_min	map.c	/^int	ft_get_min(int x, int y, int z)$/;"	f
+ft_read_files	tool.c	/^char	*ft_read_files(int fd, t_data *data)$/;"	f
+ft_strcpycat	tool.c	/^void	ft_strcpycat(char *dest, char *src1, char *src2)$/;"	f
+init_first_data	init.c	/^void	init_first_data(t_data *data, char **str)$/;"	f
+init_line	init.c	/^int	init_line(char *str, t_data *data, int row, int len)$/;"	f
+is_right_first_line	init.c	/^int	is_right_first_line(char *str, t_data *data, int len)$/;"	f
+is_valid_data	init.c	/^int	is_valid_data(t_data *data)$/;"	f
+main	main.c	/^int	main(int argc, char *argv[])$/;"	f
+print_map	map.c	/^void	print_map(t_data *data)$/;"	f
+set_map	map.c	/^void	set_map(t_data *data, char **str)$/;"	f
+sol_map	map.c	/^void	sol_map(t_data *data)$/;"	f
+update_max	tool.c	/^void	update_max(t_data *data, int i, int j)$/;"	f
